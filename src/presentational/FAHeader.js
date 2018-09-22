@@ -1,16 +1,13 @@
 // @flow
 import React, { Component } from 'react';
 import {
+  SafeAreaView,
   Text,
   TouchableOpacity,
   View
 } from 'react-native';
 import FAColors from "../common/FAColors";
 import FAStyleSheet from "../common/FAStyleSheet";
-
-/* Constants
-============================================================================= */
-const STATUS_BAR_HEIGHT = 20;
 
 /** ============================================================================
 <FAHeader />
@@ -21,9 +18,11 @@ type Props = {}
 class FAHeader extends Component<Props> {
   render() {
     return (
-      <View style={styles.header}>
-        <Text style={styles.title}>flavorli</Text>
-      </View>
+      <SafeAreaView style={styles.safeAreaView}>
+        <View style={styles.header}>
+          <Text style={styles.title}>flavorli</Text>
+        </View>
+      </SafeAreaView>
     )
   }
 }
@@ -31,17 +30,19 @@ class FAHeader extends Component<Props> {
 /* StyleSheet
 ============================================================================= */
 const styles = FAStyleSheet.create({
+  safeAreaView: {
+    backgroundColor: FAColors.alabaster
+  },
   header: {
     flexDirection: 'row',
-    padding: 5,
-    paddingTop: STATUS_BAR_HEIGHT + 10,
     zIndex: 1, // Removes shadow that is sometimes caused by react-navigation
     backgroundColor: FAColors.alabaster,
     borderBottomWidth: 1,
     borderBottomColor: FAColors.gallery,
+    paddingBottom: 5
   },
   title: {
-    flex: 1, // Take remaining space
+    flex: 1,
     textAlign: 'center',
     color: FAColors.oxfordBlue,
     fontFamily: 'Pacifico-Regular',

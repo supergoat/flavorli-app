@@ -9,11 +9,13 @@ const NAMED_COLORS: COLOR_TYPES = {
   bone: '#E9DBCE',
   forestGreen: '#2BAD2B',
   gallery: '#EEEEEE',
+  manatee: '#989CA0',
   mariner: '#2277D8',
   orinoco: '#DFF8C8',
   osloGrey: '#7e8890',
   oxfordBlue: '#333C4E',
   riverBed: '#424B5C',
+  rollingStone: '#788087',
   silver: '#CDCDCD',
   stRopaz: '#2E589B',
   white: "#FFFFFF",
@@ -30,11 +32,13 @@ type COLOR_TYPES =
   | 'bone'
   | 'forestGreen'
   | 'gallery'
+  | 'manatee'
   | 'mariner'
   | 'orinoco'
   | 'osloGrey'
   | 'oxfordBlue'
   | 'riverBed'
+  | 'rollingStone'
   | 'silver'
   | 'stRopaz'
   | 'white'

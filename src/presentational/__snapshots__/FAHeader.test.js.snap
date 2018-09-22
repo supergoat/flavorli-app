@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAHeader renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#F9F9F9",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9F9F9",
+        "borderBottomColor": "#EEEEEE",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+        "zIndex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333C4E",
+          "flex": 1,
+          "fontFamily": "Pacifico-Regular",
+          "fontSize": 30,
+          "textAlign": "center",
+        }
+      }
+    >
+      flavorli
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

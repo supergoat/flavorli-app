@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MealList renders correctly 1`] = `
+<RCTScrollView
+  ListEmptyComponent={[Function]}
+  data={Array []}
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <Text>
+      No meals available right now. Please try again later
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`MealList renders correctly when is a list of meals is passed as a prop 1`] = `
+<RCTScrollView
+  ListEmptyComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "description": "This is the lasagna description",
+        "id": "1",
+        "name": "Lasagna",
+        "price": "£12.00",
+      },
+      Object {
+        "description": "This is the Spaghetti Bolognese description",
+        "id": "2",
+        "name": "Spaghetti Bolognese",
+        "price": "£10.00",
+      },
+      Object {
+        "description": "This is the Tiramisu description",
+        "id": "3",
+        "name": "Tiramisu",
+        "price": "£5.00",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "padding": 10,
+            "paddingVertical": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333C4E",
+              "fontFamily": "Lato",
+              "fontSize": 18,
+            }
+          }
+        >
+          Lasagna
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#7e8890",
+              "fontFamily": "Lato",
+              "fontSize": 16,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          This is the lasagna description
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#788087",
+              "fontFamily": "Lato",
+              "fontSize": 16,
+            }
+          }
+        >
+          £12.00
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "padding": 10,
+            "paddingVertical": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333C4E",
+              "fontFamily": "Lato",
+              "fontSize": 18,
+            }
+          }
+        >
+          Spaghetti Bolognese
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#7e8890",
+              "fontFamily": "Lato",
+              "fontSize": 16,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          This is the Spaghetti Bolognese description
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#788087",
+              "fontFamily": "Lato",
+              "fontSize": 16,
+            }
+          }
+        >
+          £10.00
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#EEEEEE",
+            "borderBottomWidth": 1,
+            "padding": 10,
+            "paddingVertical": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333C4E",
+              "fontFamily": "Lato",
+              "fontSize": 18,
+            }
+          }
+        >
+          Tiramisu
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#7e8890",
+              "fontFamily": "Lato",
+              "fontSize": 16,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          This is the Tiramisu description
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#788087",
+              "fontFamily": "Lato",
+              "fontSize": 16,
+            }
+          }
+        >
+          £5.00
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
