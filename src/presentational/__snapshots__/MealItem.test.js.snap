@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MealItem renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderBottomColor": "#EEEEEE",
+      "borderBottomWidth": 1,
+      "opacity": 1,
+      "padding": 10,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#333C4E",
+        "fontFamily": "Lato",
+        "fontSize": 18,
+      }
+    }
+  >
+    Lasagna
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#7e8890",
+        "fontFamily": "Lato",
+        "fontSize": 16,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    This is the lasagna description
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#788087",
+        "fontFamily": "Lato",
+        "fontSize": 16,
+      }
+    }
+  >
+    £
+    12.00
+  </Text>
+</View>
+`;

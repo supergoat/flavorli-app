@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MealScreen renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#F9F9F9",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9F9F9",
+        "flex": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333C4E",
+          "fontFamily": "Lato",
+          "fontSize": 30,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      Lasagna
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#788087",
+          "fontFamily": "Lato",
+          "fontSize": 20,
+        }
+      }
+    >
+      £
+      12.00
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#7e8890",
+          "fontFamily": "Lato",
+          "fontSize": 18,
+          "paddingTop": 20,
+        }
+      }
+    >
+      This is the lasagna description
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 40,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#333C4E",
+            "borderRadius": 19,
+            "borderWidth": 1,
+            "height": 38,
+            "justifyContent": "center",
+            "opacity": 0.5,
+            "width": 38,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333C4E",
+              "fontFamily": "Lato",
+              "fontSize": 25,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          -
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "fontFamily": "Lato",
+            "fontSize": 25,
+            "fontWeight": "bold",
+            "marginHorizontal": 20,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+      >
+        1
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#333C4E",
+            "borderRadius": 19,
+            "borderWidth": 1,
+            "height": 38,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 38,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333C4E",
+              "fontFamily": "Lato",
+              "fontSize": 25,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          +
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 40,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderColor": "#333C4E",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "flex": 1,
+            "marginRight": 15,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Lato",
+              },
+              Object {
+                "color": "#333C4E",
+              },
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#333C4E",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "flex": 2,
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Lato",
+              },
+              false,
+            ]
+          }
+        >
+          Add For £12.00
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

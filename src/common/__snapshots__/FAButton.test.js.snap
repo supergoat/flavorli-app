@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAButton renders correctly when the button is of type primary 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#333C4E",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "flex": 1,
+      "opacity": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Lato",
+        },
+        false,
+      ]
+    }
+  >
+    button
+  </Text>
+</View>
+`;
+
+exports[`FAButton renders correctly when the button is of type secondary 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderColor": "#333C4E",
+      "borderRadius": 3,
+      "borderWidth": 1,
+      "flex": 1,
+      "opacity": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Lato",
+        },
+        Object {
+          "color": "#333C4E",
+        },
+      ]
+    }
+  >
+    button
+  </Text>
+</View>
+`;

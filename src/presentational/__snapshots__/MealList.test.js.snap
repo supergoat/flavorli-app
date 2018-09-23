@@ -24,6 +24,7 @@ exports[`MealList renders correctly 1`] = `
   stickyHeaderIndices={Array []}
   style={
     Object {
+      "backgroundColor": "#FFFFFF",
       "flex": 1,
       "padding": 10,
     }
@@ -49,19 +50,19 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
         "description": "This is the lasagna description",
         "id": "1",
         "name": "Lasagna",
-        "price": "£12.00",
+        "price": 12,
       },
       Object {
         "description": "This is the Spaghetti Bolognese description",
         "id": "2",
         "name": "Spaghetti Bolognese",
-        "price": "£10.00",
+        "price": 10,
       },
       Object {
         "description": "This is the Tiramisu description",
         "id": "3",
         "name": "Tiramisu",
-        "price": "£5.00",
+        "price": 5,
       },
     ]
   }
@@ -85,6 +86,7 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
   stickyHeaderIndices={Array []}
   style={
     Object {
+      "backgroundColor": "#FFFFFF",
       "flex": 1,
       "padding": 10,
     }
@@ -99,13 +101,21 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
       style={null}
     >
       <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
             "borderBottomColor": "#EEEEEE",
             "borderBottomWidth": 1,
+            "opacity": 1,
             "padding": 10,
             "paddingVertical": 20,
-            "width": "100%",
           }
         }
       >
@@ -141,7 +151,8 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
             }
           }
         >
-          £12.00
+          £
+          12.00
         </Text>
       </View>
     </View>
@@ -150,13 +161,21 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
       style={null}
     >
       <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
             "borderBottomColor": "#EEEEEE",
             "borderBottomWidth": 1,
+            "opacity": 1,
             "padding": 10,
             "paddingVertical": 20,
-            "width": "100%",
           }
         }
       >
@@ -192,7 +211,8 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
             }
           }
         >
-          £10.00
+          £
+          10.00
         </Text>
       </View>
     </View>
@@ -201,13 +221,21 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
       style={null}
     >
       <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
           Object {
             "borderBottomColor": "#EEEEEE",
             "borderBottomWidth": 1,
+            "opacity": 1,
             "padding": 10,
             "paddingVertical": 20,
-            "width": "100%",
           }
         }
       >
@@ -243,7 +271,8 @@ exports[`MealList renders correctly when is a list of meals is passed as a prop 
             }
           }
         >
-          £5.00
+          £
+          5.00
         </Text>
       </View>
     </View>

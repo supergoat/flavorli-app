@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FACircleButton renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#333C4E",
+      "borderRadius": 19,
+      "borderWidth": 1,
+      "height": 38,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 38,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#333C4E",
+        "fontFamily": "Lato",
+        "fontSize": 25,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    button
+  </Text>
+</View>
+`;
+
+exports[`FACircleButton renders correctly when disabled is true 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#333C4E",
+      "borderRadius": 19,
+      "borderWidth": 1,
+      "height": 38,
+      "justifyContent": "center",
+      "opacity": 0.5,
+      "width": 38,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#333C4E",
+        "fontFamily": "Lato",
+        "fontSize": 25,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    button
+  </Text>
+</View>
+`;

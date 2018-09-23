@@ -9,20 +9,27 @@
   },
   "dependencies": {
     "react": "16.5.0",
-    "react-native": "0.57.0"
+    "react-native": "0.57.0",
+    "react-navigation": "^2.16.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "flow-bin": "0.78.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.45.5",
+    "react-dom": "^16.5.2",
     "react-test-renderer": "16.5.0"
   },
   "jest": {
     "preset": "react-native",
     "transform": {
       "^.+\\js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
-    }
+    },
+    "setupFiles": [
+      "<rootDir>/setupTests.js"
+    ]
   },
   "rnpm": {
     "assets": [
